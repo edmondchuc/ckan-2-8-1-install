@@ -109,4 +109,4 @@ echo -e '\t'	- start up the CKAN instance
 echo -e '\t'	- creating a new organisation will now allow you to upload an image
 echo -e '\t'	- adding a new dataset will now allow you to upload files as well as link URLs
 echo
-echo Note: Don't forget to activate your virtualenv when you start up CKAN.
+echo Note: Don\'t forget to activate your virtualenv when you start up CKAN.
