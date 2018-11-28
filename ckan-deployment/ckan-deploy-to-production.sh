@@ -2,7 +2,7 @@
 
 # Install the required packages
 sudo apt update
-sudo apt ugprade -y
+sudo apt upgrade -y
 sudo apt install apache2 libapache2-mod-wsgi -y
 
 # Copy the existing CKAN development configuration file and name it production.ini
