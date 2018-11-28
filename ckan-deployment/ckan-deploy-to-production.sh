@@ -14,4 +14,7 @@ cp app.wsgi /etc/ckan/default/
 # Copy the Apache configuration file to its working directory
 sudo cp ckan_default.conf /etc/apache2/sites-available/ckan_default.conf
 
+# Enable the new CKAN site in Apache
+sudo a2ensite ckan_default
+sudo a2dissite 000-default
 sudo service apache2 reload
