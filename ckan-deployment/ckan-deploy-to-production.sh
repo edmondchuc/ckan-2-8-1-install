@@ -9,7 +9,7 @@ sudo apt install apache2 libapache2-mod-wsgi -y
 cp /etc/ckan/default/development.ini /etc/ckan/default/production.ini
 
 # Copy the app.wsgi to the /etc/ckan/default/ directory
-cp app.wsgi /etc/ckan/default/
+cp apache.wsgi /etc/ckan/default/
 
 # Copy the Apache configuration file to its working directory
 sudo cp ckan_default.conf /etc/apache2/sites-available/ckan_default.conf
