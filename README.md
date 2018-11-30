@@ -2,7 +2,7 @@
 This repository contains semi-automated bash scripts to install an instance of CKAN and some optional extensions.
 
 ## Installation
-The only mandatory installation will be the `ckan-install.sh` for a minimal CKAN instance to be deployed.
+The only mandatory installation will be the `ckan-install.sh` for a minimal CKAN instance.
 
 ## Optional extensions
 - `ckan-filestore-install.sh`
