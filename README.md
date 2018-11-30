@@ -14,3 +14,6 @@ The only mandatory installation will be the `ckan-install.sh` for a minimal CKAN
 
 ## CKAN deployment
 See the directory for more information.
+
+## Quirks
+- An organisation must be created with the development server before the production server can create organisations. An attempt to create an organisation on the production server will result in a server error on the last step of the creation process. Not sure why.
