@@ -12,3 +12,5 @@ The only mandatory installation will be the `ckan-install.sh` for a minimal CKAN
 - `ckan-scheming-install.sh`
 	- allow for custom schema for the forms describing the dataset
 
+## CKAN deployment
+See the directory for more information.
