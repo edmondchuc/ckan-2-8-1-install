@@ -80,7 +80,7 @@
     {
       "preset_name": "select-ajax",
       "values": {
-        "form_snippet": "select.html",
+        "form_snippet": "form-select.html",
         "display_snippet": "select-link.html",
         "validators": "scheming_required"
       }
