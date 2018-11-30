@@ -80,8 +80,16 @@
     {
       "preset_name": "select-ajax",
       "values": {
-        "form_snippet": "form-select.html",
+        "form_snippet": "form-snippet-select.html",
         "display_snippet": "select-link.html",
+        "validators": "scheming_required"
+      }
+    },
+    {
+      "preset_name": "select-creator-org",
+      "values": {
+        "form_snippet": "select-creator-form.html",
+        "display_snippet": "select-creator-link.html",
         "validators": "scheming_required"
       }
     },
