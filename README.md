@@ -17,3 +17,9 @@ See the directory for more information.
 
 ## Quirks
 - An organisation must be created with the development server before the production server can create organisations. An attempt to create an organisation on the production server will result in a server error on the last step of the creation process. Not sure why.
+
+
+## Extensions of interest
+
+### ckanext-validation
+- https://github.com/frictionlessdata/ckanext-validation
