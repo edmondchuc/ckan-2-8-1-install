@@ -60,7 +60,7 @@ echo
 echo Author: Edmond Chuc
 echo Email: edmond.chuc@csiro.au
 echo 
-printf '. ./install-ckan-01.sh <-- did you run this script like this? Enter [y/n] : '
+printf '. ./ckan-install.sh <-- did you run this script like this? Enter [y/n] : '
 read -r userinput
 
 if [ "$userinput" == "y" ]; then
