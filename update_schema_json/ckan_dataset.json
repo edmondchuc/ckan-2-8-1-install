@@ -11,24 +11,24 @@
       "form_placeholder": "eg. A descriptive title"
     },
     {
-    	"field_name": "theme",
-    	"label": "theme",
-    	"form_placeholder": "http://www.google.com",
-    	"display_property": "theme",
-    	"display_snippet": "link.html"
+      "field_name": "theme",
+      "label": "theme",
+      "form_placeholder": "http://www.google.com",
+      "display_property": "theme",
+      "display_snippet": "link.html"
     },
     {
-      "field_name": "creator_org",
+      "field_name": "select",
       "label": "Creator Organization",
-      "preset": "dataset_organization_no_validators"
+      "preset": "select-creator-org"
     },
     {
-    	"field_name": "term",
-    	"label": "Term",
-    	"help_text": "Choose a suitable term out of the Sea Surface Temperature vocabulary.",
-    	"help_inline": true,
-    	"preset": "select-ajax",
-    	"choices": [
+      "field_name": "term",
+      "label": "Term",
+      "help_text": "Choose a suitable term out of the Sea Surface Temperature vocabulary.",
+      "help_inline": true,
+      "preset": "select-ajax",
+      "choices": [
         {
           "value": "bactrian",
           "label": "Bactrian Camel"
