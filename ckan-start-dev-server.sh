@@ -4,4 +4,4 @@
 . /usr/lib/ckan/default/bin/activate
 
 # Start the dev. server
-paster serve /etc/ckan/default/development.ini
+paster serve /etc/ckan/default/development.ini --reload
