@@ -1022,7 +1022,7 @@ class EuropeanDCATAPProfile(RDFProfile):
             ('is_version_of', DCT.isVersionOf, None, URIRefOrLiteral),
             ('source', DCT.source, None, Literal),
             ('sample', ADMS.sample, None, Literal),
-            ('select', DCT.creator, None, URIRefOrLiteral)
+            ('select', DCT.creator, None, URIRef)
         ]
         self._add_list_triples_from_dict(dataset_dict, dataset_ref, items)
 
