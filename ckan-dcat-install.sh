@@ -94,7 +94,7 @@ fi
 . /usr/lib/ckan/default/bin/activate
 
 # Get the extension source files
-pip install -e git+https://github.com/ckan/ckanext-dcat.git#egg=ckanext-dcat
+pip install -e git+https://github.com/edmondchuc/ckanext-dcat.git#egg=ckanext-dcat
 
 # Install the requirements
 pip install -r /usr/lib/ckan/default/src/ckanext-dcat/requirements.txt
