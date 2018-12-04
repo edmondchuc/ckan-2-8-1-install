@@ -71,7 +71,7 @@ fi
 # Activate the virtualenv for CKAN
 . /usr/lib/ckan/default/bin/activate
 
-pip install -e "git+https://github.com/edmondchuc/ckanext-qld_gov_theme.git#egg=ckanext-scheming" /usr/lib/ckan/default/src
+pip install -e "git+https://github.com/edmondchuc/ckanext-qld_gov_theme.git#egg=ckanext-scheming"
 
 pip install -r /usr/lib/ckan/default/src/ckanext-qld_gov_theme/requirements.txt
 
