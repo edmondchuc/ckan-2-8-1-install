@@ -73,7 +73,7 @@ fi
 
 pip install -e "git+https://github.com/edmondchuc/ckanext-qld_gov_theme.git#egg=ckanext-qld_gov_theme"
 
-pip install -r /usr/lib/ckan/default/src/ckanext-qld_gov_theme/requirements.txt
+pip install -r /usr/lib/ckan/default/src/ckanext-qld-gov-theme/requirements.txt
 
 
 
