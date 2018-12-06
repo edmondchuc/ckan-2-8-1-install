@@ -85,4 +85,6 @@ echo .
 echo Congratulations! You have finished installing CKAN Qld Gov Theme Extension
 echo --------------------------------------------------------------------------
 echo
+echo In your configuration file, add \'qld_gov_theme\' to ckan.plugins to activate this extension.
+echo
 echo Done
