@@ -89,7 +89,7 @@ fi
 
 cd /usr/lib/ckan/default/src
 
-pip install -e "git+https://github.com/edmondchuc/ckanext-scheming.git#egg=ckanext-scheming"
+pip install -e "git+https://github.com/CSIRO-enviro-informatics/gsq-ckanext-scheming.git#egg=ckanext-scheming"
 
 cd ./ckanext-scheming
 
